@@ -212,6 +212,28 @@ a {
   color: var(--muted);
 }
 
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0 0;
+}
+
+.hero-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.25rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.hero-highlights span {
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  background: rgba(199, 102, 68, 0.1);
+}
+
 .button {
   display: inline-flex;
   align-items: center;
@@ -317,6 +339,33 @@ a {
   border-radius: 32px;
   background: var(--surface);
   border: 1px solid var(--border);
+}
+
+.trust-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 2rem;
+}
+
+.testimonial-card {
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 32px;
+  background: rgba(199, 102, 68, 0.08);
+  border: 1px solid rgba(199, 102, 68, 0.18);
+  color: var(--text);
+}
+
+.testimonial-card p:first-child {
+  margin: 0 0 1rem;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.testimonial-card p:last-child {
+  margin: 0;
+  color: var(--muted);
 }
 
 .contact-card ul {
